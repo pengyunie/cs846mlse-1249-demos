@@ -1,6 +1,6 @@
 notebook
 jupyter
-ipyweights
+ipywidgets
 seutil~=0.8.10
 datasets~=3.0.0
 nltk~=3.9
@@ -14,3 +14,10 @@ tree-sitter-javascript
 tree-sitter-php
 tree-sitter-python
 tree-sitter-ruby
+spacy
+altair
+jupytext
+GPUtil
+wandb
+tiktoken~=0.7.0
+transformers~=4.44.2
