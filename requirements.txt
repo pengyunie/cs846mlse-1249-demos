@@ -21,3 +21,7 @@ GPUtil
 wandb
 tiktoken~=0.7.0
 transformers[torch]~=4.44.2
+aiohttp
+numpy
+tqdm
+pytest
