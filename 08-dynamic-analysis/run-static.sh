@@ -1,4 +1,4 @@
 #!/bin/bash
 
-mvn compile
-mvn exec:java -Dexec.mainClass="ca.uwaterloo.cs846.StaticAnalyzer" -Dexec.args="$PWD/target/classes/ca/uwaterloo/cs846/exp"
+mvn package
+java -cp target/demoda-1.0-SNAPSHOT.jar ca.uwaterloo.cs846.StaticAnalyzer $PWD/target/classes/ca/uwaterloo/cs846/exp/
